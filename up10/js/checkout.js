@@ -8,7 +8,7 @@ const baseLinks = {
     up7: "https://pay.kitt-hoje.store/NDr8gmKwB0JZBmj", // Parabéns, 20k adicional
     up8: "https://pay.kitt-hoje.store/N1nVZpYwBAWGlM6", // Erro no pagamento - 14,06
     up9: "https://pay.kitt-hoje.store/kYL6geWNOqpZrKM", // APP - 11,99
-    up10:"https://pay.kitt-hoje.store/DPXw3Xea05MZzmpj", // Taxa de Abertura TAC - 16,92
+    up10:"https://pay.kitt-hoje.store/DPXw3Xea05MZzmp", // Taxa de Abertura TAC - 16,92
     up11:"https://pay.kitt-hoje.store/eApQgz2wQnVgEb7",// Taxa de Consultoria Financeira - 19,53
     up12:"https://pay.kitt-hoje.store/mwK436dB7y4GQ8b", // Taxa de Processamento Administrativo - 31,92
 
@@ -61,4 +61,5 @@ function redirect(key) {
 history.pushState({}, '', location.href);
 
 history.pushState({}, '', location.href);
+
 
